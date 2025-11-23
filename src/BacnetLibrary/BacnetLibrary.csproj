@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    
+    <!-- Package Information -->
+    <PackageId>BacnetLibrary</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>The BAClib Initiative</Authors>
+    <Company>The BAClib Initiative</Company>
+    <Description>A modern C# implementation of the BACnet protocol stack for building automation and control networks</Description>
+    <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/baclib/bacnet-library-for-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/baclib/bacnet-library-for-csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>bacnet;building-automation;iot;scada;ashrae;bacnet-ip;bacnet-sc;bacnet-ms-tp</PackageTags>
+    
+    <!-- Build Settings -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+</Project>
